@@ -117,3 +117,12 @@ Here is the performance of models before and after scaling the dataset.
 
 - It is clear that LogisitcRegression, KNN and SVM models give best result when this dataset is scaled.
 - The score of RandomForest is best in original and scaled dataset.
+
+# Conclusion
+
+- The radius_mean, perimeter_mean, and area_mean are highly correlated. Hence, I used radius_mean.
+- Similarly compactness_mean,concavity_mean, and concave points_mean are also highly correlated. I used compactness_mean.
+
+- After testing 7 machine learning model I observed RandomForest model is providing best accuracy score.
+
+- Scaling data improved the accuracy score of LogisticRegression,KNN and SVM.
